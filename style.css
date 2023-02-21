@@ -14,8 +14,7 @@ body{
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
     display: flex;
     flex-direction: column;
-    bottom: 0;
-    top: 0;
+
 }
 
 body::before{
@@ -193,13 +192,13 @@ input::placeholder{
     padding-left: 5px;
     font-size: 16px;
 }
-
+/* 
 input:focus{
     padding-left: 20px;
     font-size: 16px;
     color: white;
 
-}
+} */
 
 input:valid{
     padding-left: 20px;
